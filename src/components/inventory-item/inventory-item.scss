@@ -1,0 +1,31 @@
+.inventory__item {
+  display: flex;
+  flex-direction: column;
+  background-color: #35328B;
+  width: 160px;
+  height: auto;
+  max-height: 191px;
+  border-top: 3px solid #CFCDF2;
+  border-left: 3px solid #CFCDF2;
+  border-right: 3px solid #CFCDF2;
+  margin: 15px;
+  cursor: pointer;
+  &:hover {
+    background-color: darken(#35328B, 5);
+  }
+}
+
+.inventory__item-subtitle {
+  text-align: center;
+  width: 100%;
+  color: #212059;
+  background-color: #CFCDF2;
+  font-weight: 700;
+  padding: 5px 0;
+}
+
+.inventory__item-image {
+  width: 100px;
+  height: 100px;
+  margin: 30px auto;
+}
